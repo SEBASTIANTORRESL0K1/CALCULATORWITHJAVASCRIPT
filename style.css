@@ -1,0 +1,72 @@
+body {
+    background-color: #026773;
+}
+
+#pantalla {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ #display {
+     background-color: antiquewhite;
+     text-align: center;
+     width:90%;
+     height: 15%;
+     display: flex;
+     justify-content: space-between;
+     font-size: 20px;
+ }
+ #botones {
+     display: flex;
+     justify-content: space-around;
+ }
+ #boton {
+    color: white;
+    background-color: #023535 !important;
+    width: 20%;
+    font-size: 20px;
+}
+ #boton2 {
+     color:white;
+     background-color: #023535 !important;
+     width: 20%;
+     font-size: 20px;
+ }
+ #boton3 {
+     color:white;
+     background-color: #023535 !important;
+     width: 20%;
+     font-size: 20px;
+ }
+ #boton4 {
+     color:white;
+     background-color: #023535 !important;
+     width: 20%;
+     font-size: 20px;
+ }
+ #input1 {
+     font-family: fantasy;
+     color:black;
+     font-size: 20px;
+ }
+ #input2 {
+         font-family: fantasy;
+         color:black;
+         font-size: 20px;
+ }    
+#numero1 {
+    font-size: 20px;
+    background: white;
+}
+#numero2 {
+    background: white;
+    color: antiquewhite;
+    font-size: 20px;
+}
+ #boton {
+    color: white;
+    background-color: #023535 !important;
+    width: 20%;
+    font-size: 20px;
+}
