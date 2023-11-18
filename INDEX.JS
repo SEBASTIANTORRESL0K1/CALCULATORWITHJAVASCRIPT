@@ -61,3 +61,53 @@ function dividir() {
     document.getElementById("display").value = resultado;
 debugger;
 }
+
+
+// eventos del mouse
+// click.addEventListener("click",function () {}=EventCounts, funcion
+
+
+
+// Eventos del mouse
+               // evento | función
+               let hacerclick = document.querySelector(".botonClick");
+               hacerclick.addEventListener('click',function(){
+                console.log('Dimos click en el botón')
+                hacerclick.classList.toggle("botony");
+             })
+             
+             hacerclick.addEventListener('mouseout',function(){
+                console.log('Salí del botón')
+             
+             })
+
+             hacerclick.addEventListener('mouseover',function(){
+                console.log('Entre al botón')
+             
+             })
+             
+             
+             //eventos del teclado
+             window.addEventListener('keydown',(e)=>{
+                console.log('pulso una tecla')
+                console.log(String.fromCharCode(e.keyCode))
+             })
+             
+             window.addEventListener('keypress',()=>{
+                console.log('presione una tecla')
+             })
+             window.addEventListener('keyup',()=>{
+                console.log('dejé de presionar una tecla')
+             })
+             
+             window.addEventListener('load',() => {
+                console.log('Terminé de cargar la página')
+             })
+             
+             
+             function escribir(){
+                let text = document.getElementById("texto").textContent;
+                let texto = document.getElementById("Escribir").textContent;
+             
+                
+             }
